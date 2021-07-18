@@ -38,10 +38,10 @@ const DiagnosesBarChart = ({ className, ...rest }) => {
     logarithmic: false,
   });
 
-  console.log(selector)
+  
   React.useEffect(() => {
-    let apiUrl = 'https://raw.githubusercontent.com/adityanz/healthcare-dashboard/master/src/data/diagnosis_dist/' + selector + '.json';
-    //let apiUrl = ''
+    let apiUrl = process.env.API_URL_DIAG + selector + '.json';
+    
     fetch(apiUrl)
       .then((response) => response.json())
       .then(result => {

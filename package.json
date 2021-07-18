@@ -1,8 +1,8 @@
 {
   "name": "react-material-dashboard",
   "homepage": ".",
-  "author": "DeviasIO",
-  "licence": "MIT",
+  "author": "",
+  "licence": "",
   "version": "1.0.0",
   "private": false,
   "eslintConfig": {

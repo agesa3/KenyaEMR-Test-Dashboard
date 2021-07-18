@@ -11,11 +11,9 @@ import {
   Toolbar,
   makeStyles
 } from '@material-ui/core';
-import Logo from 'src/components/Logo';
 import Typography from '@material-ui/core/Typography';
 import MenuIcon from '@material-ui/icons/Menu';
-import NotificationsIcon from '@material-ui/icons/NotificationsOutlined';
-import InputIcon from '@material-ui/icons/Input';
+
 
 const useStyles = makeStyles((theme) => ({
   root: {},
