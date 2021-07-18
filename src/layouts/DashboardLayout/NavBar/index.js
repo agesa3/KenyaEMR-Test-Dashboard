@@ -11,12 +11,15 @@ import {
   Typography,
   makeStyles
 } from '@material-ui/core';
-import { BarChart as BarChartIcon,DollarSign as DollarSignIcon } from 'react-feather';
+import {
+  BarChart as BarChartIcon,
+  DollarSign as DollarSignIcon
+} from 'react-feather';
 import NavItem from './NavItem';
 import { Aperture as ApertureIcon } from 'react-feather';
 
 const user = {
-  name: 'GROUP 5'
+  name: 'MEDITECH GROUP 5'
 };
 
 const items = [
@@ -26,25 +29,40 @@ const items = [
     title: 'Dashboard'
   },
   {
-    href: '/dashboard',
+    href: '/pharmacy',
     icon: BarChartIcon,
     title: 'Pharmacy'
   },
   {
-    href: '/dashboard',
+    href: '/accounts',
     icon: DollarSignIcon,
     title: 'Accounts'
   },
   {
-    href: '/dashboard',
+    href: '/inventory',
     icon: DollarSignIcon,
-    title: 'Accounts'
+    title: 'Inventory'
   },
   {
-    href: '/dashboard',
+    href: '/laboratory',
     icon: ApertureIcon,
-    title: 'Accounts'
+    title: 'Laboratory'
   },
+  {
+    href: '/maternity',
+    icon: ApertureIcon,
+    title: 'Maternity'
+  },
+  {
+    href: '/mchclinic',
+    icon: ApertureIcon,
+    title: 'MCH Clinic'
+  },
+  {
+    href: '/mchstores',
+    icon: ApertureIcon,
+    title: 'MCH Stores'
+  }
 ];
 
 const useStyles = makeStyles(() => ({

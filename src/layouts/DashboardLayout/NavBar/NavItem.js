@@ -64,7 +64,7 @@ const NavItem = ({
         {Icon && (
           <Icon
             className={classes.icon}
-            size="20"
+            size="25"
           />
         )}
         <span className={classes.title}>

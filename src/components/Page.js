@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 const Page = forwardRef(({
   children,
-  title = '',
+  title = 'testing title',
   ...rest
 }, ref) => {
   return (
