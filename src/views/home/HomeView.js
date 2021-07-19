@@ -21,9 +21,6 @@ const useStyles = makeStyles(theme => ({
 const HomeView = () => {
   const classes = useStyles();
 
-  let databaseURL = 'https://physionet.org/content/mimiciii/1.4/';
-  let dcoumentationURL = 'https://mimic.physionet.org/about/mimic/';
-
   return (
     <Page className={classes.root} title="home">
       <Box
