@@ -1,11 +1,11 @@
 import React from 'react'
 
-const MchStore = () => {
+const Maternity = () => {
     return (
         <div>
-            MCH Store page
+            Maternity Page
         </div>
     )
 }
 
-export default MchStore
+export default Maternity
