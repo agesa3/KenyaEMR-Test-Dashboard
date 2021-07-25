@@ -16,7 +16,14 @@ import {
   DollarSign as DollarSignIcon
 } from 'react-feather';
 import NavItem from './NavItem';
-import { Aperture as ApertureIcon } from 'react-feather';
+import MonetizationOnIcon from '@material-ui/icons/MonetizationOn';
+import { GiPill } from "react-icons/gi";
+import { GrDocumentStore } from "react-icons/gr";
+import { ImLab } from "react-icons/im";
+import { FaBaby,FaWarehouse } from "react-icons/fa";
+import { BiClinic } from "react-icons/bi";
+import { IoIosPeople } from "react-icons/io";
+import { AiFillDashboard } from "react-icons/ai";
 
 const user = {
   name: 'MEDITECH GROUP 5'
@@ -25,42 +32,47 @@ const user = {
 const items = [
   {
     href: '/dashboard',
-    icon: BarChartIcon,
+    icon: AiFillDashboard,
     title: 'Dashboard'
   },
   {
+    href: '/visits',
+    icon: IoIosPeople,
+    title: 'Visits'
+  },
+  {
     href: '/pharmacy',
-    icon: BarChartIcon,
+    icon: GiPill,
     title: 'Pharmacy'
   },
   {
     href: '/accounts',
-    icon: DollarSignIcon,
+    icon: MonetizationOnIcon,
     title: 'Accounts'
   },
   {
     href: '/inventory',
-    icon: DollarSignIcon,
+    icon: GrDocumentStore,
     title: 'Inventory'
   },
   {
     href: '/laboratory',
-    icon: ApertureIcon,
+    icon: ImLab,
     title: 'Laboratory'
   },
   {
     href: '/maternity',
-    icon: ApertureIcon,
+    icon: FaBaby,
     title: 'Maternity'
   },
   {
     href: '/mchclinic',
-    icon: ApertureIcon,
+    icon: BiClinic,
     title: 'MCH Clinic'
   },
   {
     href: '/mchstores',
-    icon: ApertureIcon,
+    icon: FaWarehouse,
     title: 'MCH Stores'
   }
 ];

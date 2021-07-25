@@ -11,11 +11,10 @@ const App = () => {
   const routing = useRoutes(routes);
 
   return (
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={theme}> 
       <GlobalStyles />
       {routing}
-     
-    </ThemeProvider>
+      </ThemeProvider>
     
   );
 };

@@ -1,0 +1,657 @@
+{
+  "results": [
+    {
+      "uuid": "babff325-91e8-48ca-a628-4d3b43ec2bea",
+      "display": "Facility Visit @ Amani Hospital - 25/07/2021 18:54",
+      "patient": {
+        "uuid": "a3511f6a-0bd1-4fe0-a484-beb2e2d5b692",
+        "display": "100HPW - Navas Torres,",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/patient/a3511f6a-0bd1-4fe0-a484-beb2e2d5b692"
+          }
+        ]
+      },
+      "visitType": {
+        "uuid": "7b0f5697-27e3-40c4-8bae-f4049abfb4ed",
+        "display": "Facility Visit",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/visittype/7b0f5697-27e3-40c4-8bae-f4049abfb4ed"
+          }
+        ]
+      },
+      "indication": null,
+      "location": {
+        "uuid": "aff27d58-a15c-49a6-9beb-d30dcfc0c66e",
+        "display": "Amani Hospital",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/location/aff27d58-a15c-49a6-9beb-d30dcfc0c66e"
+          }
+        ]
+      },
+      "startDatetime": "2021-07-25T18:54:01.000+0000",
+      "stopDatetime": null,
+      "encounters": [],
+      "attributes": [],
+      "voided": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/visit/babff325-91e8-48ca-a628-4d3b43ec2bea"
+        },
+        {
+          "rel": "full",
+          "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/visit/babff325-91e8-48ca-a628-4d3b43ec2bea?v=full"
+        }
+      ],
+      "resourceVersion": "1.9"
+    },
+    {
+      "uuid": "98b9b08d-2fae-43f5-a0d4-aeff06fa3586",
+      "display": "Facility Visit @ Amani Hospital - 25/07/2021 16:22",
+      "patient": {
+        "uuid": "5ba2e7e2-2d9c-4e8e-8cb2-b8db9b086f0c",
+        "display": "100HXG - Kushal Puri",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/patient/5ba2e7e2-2d9c-4e8e-8cb2-b8db9b086f0c"
+          }
+        ]
+      },
+      "visitType": {
+        "uuid": "7b0f5697-27e3-40c4-8bae-f4049abfb4ed",
+        "display": "Facility Visit",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/visittype/7b0f5697-27e3-40c4-8bae-f4049abfb4ed"
+          }
+        ]
+      },
+      "indication": null,
+      "location": {
+        "uuid": "aff27d58-a15c-49a6-9beb-d30dcfc0c66e",
+        "display": "Amani Hospital",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/location/aff27d58-a15c-49a6-9beb-d30dcfc0c66e"
+          }
+        ]
+      },
+      "startDatetime": "2021-07-25T16:22:32.000+0000",
+      "stopDatetime": null,
+      "encounters": [
+        {
+          "uuid": "abc18143-5d6f-435c-a92c-5caf6bb7394a",
+          "display": "Admission 25/07/2021",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/encounter/abc18143-5d6f-435c-a92c-5caf6bb7394a"
+            }
+          ]
+        }
+      ],
+      "attributes": [],
+      "voided": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/visit/98b9b08d-2fae-43f5-a0d4-aeff06fa3586"
+        },
+        {
+          "rel": "full",
+          "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/visit/98b9b08d-2fae-43f5-a0d4-aeff06fa3586?v=full"
+        }
+      ],
+      "resourceVersion": "1.9"
+    },
+    {
+      "uuid": "ec816c03-f623-4661-a62e-a91d3f95bf87",
+      "display": "Facility Visit @ Amani Hospital - 25/07/2021 16:04",
+      "patient": {
+        "uuid": "f976edef-bf1d-44f4-a02a-583fb84e8bb4",
+        "display": "100HRU - UNKNOWN UNKNOWN",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/patient/f976edef-bf1d-44f4-a02a-583fb84e8bb4"
+          }
+        ]
+      },
+      "visitType": {
+        "uuid": "7b0f5697-27e3-40c4-8bae-f4049abfb4ed",
+        "display": "Facility Visit",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/visittype/7b0f5697-27e3-40c4-8bae-f4049abfb4ed"
+          }
+        ]
+      },
+      "indication": null,
+      "location": {
+        "uuid": "aff27d58-a15c-49a6-9beb-d30dcfc0c66e",
+        "display": "Amani Hospital",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/location/aff27d58-a15c-49a6-9beb-d30dcfc0c66e"
+          }
+        ]
+      },
+      "startDatetime": "2021-07-25T16:04:49.000+0000",
+      "stopDatetime": null,
+      "encounters": [],
+      "attributes": [],
+      "voided": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/visit/ec816c03-f623-4661-a62e-a91d3f95bf87"
+        },
+        {
+          "rel": "full",
+          "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/visit/ec816c03-f623-4661-a62e-a91d3f95bf87?v=full"
+        }
+      ],
+      "resourceVersion": "1.9"
+    },
+    {
+      "uuid": "023f0b8c-e0fb-4ae1-9bb1-49248846f752",
+      "display": "Facility Visit @ Amani Hospital - 25/07/2021 14:36",
+      "patient": {
+        "uuid": "c56aeead-2fd1-477a-963d-fa8fe194cc7a",
+        "display": "100HM1 - ashish kumar srivastava",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/patient/c56aeead-2fd1-477a-963d-fa8fe194cc7a"
+          }
+        ]
+      },
+      "visitType": {
+        "uuid": "7b0f5697-27e3-40c4-8bae-f4049abfb4ed",
+        "display": "Facility Visit",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/visittype/7b0f5697-27e3-40c4-8bae-f4049abfb4ed"
+          }
+        ]
+      },
+      "indication": null,
+      "location": {
+        "uuid": "aff27d58-a15c-49a6-9beb-d30dcfc0c66e",
+        "display": "Amani Hospital",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/location/aff27d58-a15c-49a6-9beb-d30dcfc0c66e"
+          }
+        ]
+      },
+      "startDatetime": "2021-07-25T14:36:21.000+0000",
+      "stopDatetime": null,
+      "encounters": [
+        {
+          "uuid": "b8bdf100-72cb-47a8-aafd-92a820c22777",
+          "display": "Admission 25/07/2021",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/encounter/b8bdf100-72cb-47a8-aafd-92a820c22777"
+            }
+          ]
+        },
+        {
+          "uuid": "3f5a5ffc-fe6e-4623-859d-1273db55a349",
+          "display": "Vitals 25/07/2021",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/encounter/3f5a5ffc-fe6e-4623-859d-1273db55a349"
+            }
+          ]
+        }
+      ],
+      "attributes": [],
+      "voided": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/visit/023f0b8c-e0fb-4ae1-9bb1-49248846f752"
+        },
+        {
+          "rel": "full",
+          "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/visit/023f0b8c-e0fb-4ae1-9bb1-49248846f752?v=full"
+        }
+      ],
+      "resourceVersion": "1.9"
+    },
+    {
+      "uuid": "162e196c-1a4f-4e8d-8513-905a3cee4266",
+      "display": "Facility Visit @ Amani Hospital - 06/07/2021 00:00",
+      "patient": {
+        "uuid": "44d73c9e-f4bd-41f6-9fd3-e136073fd45d",
+        "display": "100J0C - 54tytyt yyu tyuyuy",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/patient/44d73c9e-f4bd-41f6-9fd3-e136073fd45d"
+          }
+        ]
+      },
+      "visitType": {
+        "uuid": "7b0f5697-27e3-40c4-8bae-f4049abfb4ed",
+        "display": "Facility Visit",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/visittype/7b0f5697-27e3-40c4-8bae-f4049abfb4ed"
+          }
+        ]
+      },
+      "indication": null,
+      "location": {
+        "uuid": "aff27d58-a15c-49a6-9beb-d30dcfc0c66e",
+        "display": "Amani Hospital",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/location/aff27d58-a15c-49a6-9beb-d30dcfc0c66e"
+          }
+        ]
+      },
+      "startDatetime": "2021-07-06T00:00:00.000+0000",
+      "stopDatetime": "2021-07-06T23:59:59.000+0000",
+      "encounters": [],
+      "attributes": [],
+      "voided": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/visit/162e196c-1a4f-4e8d-8513-905a3cee4266"
+        },
+        {
+          "rel": "full",
+          "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/visit/162e196c-1a4f-4e8d-8513-905a3cee4266?v=full"
+        }
+      ],
+      "resourceVersion": "1.9"
+    },
+    {
+      "uuid": "36475629-6652-44e9-a42b-c2b3b7438f72",
+      "display": "Facility Visit @ Unknown Location - 18/01/2017 06:35",
+      "patient": {
+        "uuid": "c0cbe231-deb8-4cfa-89b4-8fb4570685fc",
+        "display": "100DWN - Anthony López",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/patient/c0cbe231-deb8-4cfa-89b4-8fb4570685fc"
+          }
+        ]
+      },
+      "visitType": {
+        "uuid": "7b0f5697-27e3-40c4-8bae-f4049abfb4ed",
+        "display": "Facility Visit",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/visittype/7b0f5697-27e3-40c4-8bae-f4049abfb4ed"
+          }
+        ]
+      },
+      "indication": null,
+      "location": {
+        "uuid": "8d6c993e-c2cc-11de-8d13-0010c6dffd0f",
+        "display": "Unknown Location",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/location/8d6c993e-c2cc-11de-8d13-0010c6dffd0f"
+          }
+        ]
+      },
+      "startDatetime": "2017-01-18T06:35:03.000+0000",
+      "stopDatetime": "2017-01-18T08:20:03.000+0000",
+      "encounters": [
+        {
+          "uuid": "bc8098b3-2da2-450d-be67-54024dcc5c2c",
+          "display": "Visit Note 18/01/2017",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/encounter/bc8098b3-2da2-450d-be67-54024dcc5c2c"
+            }
+          ]
+        },
+        {
+          "uuid": "cb35367a-5e98-4be6-9e97-ac575a29b194",
+          "display": "Vitals 18/01/2017",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/encounter/cb35367a-5e98-4be6-9e97-ac575a29b194"
+            }
+          ]
+        }
+      ],
+      "attributes": [],
+      "voided": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/visit/36475629-6652-44e9-a42b-c2b3b7438f72"
+        },
+        {
+          "rel": "full",
+          "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/visit/36475629-6652-44e9-a42b-c2b3b7438f72?v=full"
+        }
+      ],
+      "resourceVersion": "1.9"
+    },
+    {
+      "uuid": "57c67dae-0310-4e6b-b229-ba35720ba896",
+      "display": "Facility Visit @ Unknown Location - 17/01/2017 06:39",
+      "patient": {
+        "uuid": "a793f92a-87d3-4c46-aeea-ab2bfddd1e36",
+        "display": "100FJ9 - Richard Williams",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/patient/a793f92a-87d3-4c46-aeea-ab2bfddd1e36"
+          }
+        ]
+      },
+      "visitType": {
+        "uuid": "7b0f5697-27e3-40c4-8bae-f4049abfb4ed",
+        "display": "Facility Visit",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/visittype/7b0f5697-27e3-40c4-8bae-f4049abfb4ed"
+          }
+        ]
+      },
+      "indication": null,
+      "location": {
+        "uuid": "8d6c993e-c2cc-11de-8d13-0010c6dffd0f",
+        "display": "Unknown Location",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/location/8d6c993e-c2cc-11de-8d13-0010c6dffd0f"
+          }
+        ]
+      },
+      "startDatetime": "2017-01-17T06:39:58.000+0000",
+      "stopDatetime": "2017-01-17T08:39:58.000+0000",
+      "encounters": [
+        {
+          "uuid": "d36d82f2-e521-4eba-a1e0-bff7f12adc6a",
+          "display": "Visit Note 17/01/2017",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/encounter/d36d82f2-e521-4eba-a1e0-bff7f12adc6a"
+            }
+          ]
+        },
+        {
+          "uuid": "a4caa27f-bfb0-4c79-9ee0-42628e486594",
+          "display": "Vitals 17/01/2017",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/encounter/a4caa27f-bfb0-4c79-9ee0-42628e486594"
+            }
+          ]
+        }
+      ],
+      "attributes": [],
+      "voided": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/visit/57c67dae-0310-4e6b-b229-ba35720ba896"
+        },
+        {
+          "rel": "full",
+          "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/visit/57c67dae-0310-4e6b-b229-ba35720ba896?v=full"
+        }
+      ],
+      "resourceVersion": "1.9"
+    },
+    {
+      "uuid": "6c389bb4-9706-415f-8c58-1bfaee18891a",
+      "display": "Facility Visit @ Unknown Location - 16/01/2017 06:42",
+      "patient": {
+        "uuid": "b70c8cf2-379c-49ca-9f9d-b8aa64d59171",
+        "display": "100GCN - Michelle Pérez",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/patient/b70c8cf2-379c-49ca-9f9d-b8aa64d59171"
+          }
+        ]
+      },
+      "visitType": {
+        "uuid": "7b0f5697-27e3-40c4-8bae-f4049abfb4ed",
+        "display": "Facility Visit",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/visittype/7b0f5697-27e3-40c4-8bae-f4049abfb4ed"
+          }
+        ]
+      },
+      "indication": null,
+      "location": {
+        "uuid": "8d6c993e-c2cc-11de-8d13-0010c6dffd0f",
+        "display": "Unknown Location",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/location/8d6c993e-c2cc-11de-8d13-0010c6dffd0f"
+          }
+        ]
+      },
+      "startDatetime": "2017-01-16T06:42:30.000+0000",
+      "stopDatetime": "2017-01-16T09:10:30.000+0000",
+      "encounters": [
+        {
+          "uuid": "cc5021ca-efdd-4708-a3d2-29ff3825082a",
+          "display": "Visit Note 16/01/2017",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/encounter/cc5021ca-efdd-4708-a3d2-29ff3825082a"
+            }
+          ]
+        },
+        {
+          "uuid": "2b7fad0e-353d-4774-a15a-b8ccdbf11c41",
+          "display": "Vitals 16/01/2017",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/encounter/2b7fad0e-353d-4774-a15a-b8ccdbf11c41"
+            }
+          ]
+        }
+      ],
+      "attributes": [],
+      "voided": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/visit/6c389bb4-9706-415f-8c58-1bfaee18891a"
+        },
+        {
+          "rel": "full",
+          "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/visit/6c389bb4-9706-415f-8c58-1bfaee18891a?v=full"
+        }
+      ],
+      "resourceVersion": "1.9"
+    },
+    {
+      "uuid": "5ba13413-562b-4968-92ab-5006c914547e",
+      "display": "Facility Visit @ Unknown Location - 16/01/2017 06:29",
+      "patient": {
+        "uuid": "93057905-b0b8-412f-8dbd-983a02ce8bbc",
+        "display": "100AKC - Helen García",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/patient/93057905-b0b8-412f-8dbd-983a02ce8bbc"
+          }
+        ]
+      },
+      "visitType": {
+        "uuid": "7b0f5697-27e3-40c4-8bae-f4049abfb4ed",
+        "display": "Facility Visit",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/visittype/7b0f5697-27e3-40c4-8bae-f4049abfb4ed"
+          }
+        ]
+      },
+      "indication": null,
+      "location": {
+        "uuid": "8d6c993e-c2cc-11de-8d13-0010c6dffd0f",
+        "display": "Unknown Location",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/location/8d6c993e-c2cc-11de-8d13-0010c6dffd0f"
+          }
+        ]
+      },
+      "startDatetime": "2017-01-16T06:29:13.000+0000",
+      "stopDatetime": "2017-01-16T08:27:13.000+0000",
+      "encounters": [
+        {
+          "uuid": "77368f21-5b65-4937-98fd-8bc6078f7503",
+          "display": "Visit Note 16/01/2017",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/encounter/77368f21-5b65-4937-98fd-8bc6078f7503"
+            }
+          ]
+        },
+        {
+          "uuid": "a47f0b44-3d5f-416c-a2b9-50883e0787d9",
+          "display": "Vitals 16/01/2017",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/encounter/a47f0b44-3d5f-416c-a2b9-50883e0787d9"
+            }
+          ]
+        }
+      ],
+      "attributes": [],
+      "voided": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/visit/5ba13413-562b-4968-92ab-5006c914547e"
+        },
+        {
+          "rel": "full",
+          "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/visit/5ba13413-562b-4968-92ab-5006c914547e?v=full"
+        }
+      ],
+      "resourceVersion": "1.9"
+    },
+    {
+      "uuid": "4943fed3-b2bf-4d73-ae37-aa1ec16620ff",
+      "display": "Facility Visit @ Unknown Location - 16/01/2017 06:04",
+      "patient": {
+        "uuid": "0e856048-34e8-41b5-abe2-47ffea0bf541",
+        "display": "1001JP - Anthony Mitchell",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/patient/0e856048-34e8-41b5-abe2-47ffea0bf541"
+          }
+        ]
+      },
+      "visitType": {
+        "uuid": "7b0f5697-27e3-40c4-8bae-f4049abfb4ed",
+        "display": "Facility Visit",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/visittype/7b0f5697-27e3-40c4-8bae-f4049abfb4ed"
+          }
+        ]
+      },
+      "indication": null,
+      "location": {
+        "uuid": "8d6c993e-c2cc-11de-8d13-0010c6dffd0f",
+        "display": "Unknown Location",
+        "links": [
+          {
+            "rel": "self",
+            "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/location/8d6c993e-c2cc-11de-8d13-0010c6dffd0f"
+          }
+        ]
+      },
+      "startDatetime": "2017-01-16T06:04:15.000+0000",
+      "stopDatetime": "2017-01-16T08:29:15.000+0000",
+      "encounters": [
+        {
+          "uuid": "700ca3f1-2517-4b94-94da-e0d473b7a898",
+          "display": "Visit Note 16/01/2017",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/encounter/700ca3f1-2517-4b94-94da-e0d473b7a898"
+            }
+          ]
+        },
+        {
+          "uuid": "72e68d11-10a5-4e48-86fc-80e7611da27c",
+          "display": "Vitals 16/01/2017",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/encounter/72e68d11-10a5-4e48-86fc-80e7611da27c"
+            }
+          ]
+        }
+      ],
+      "attributes": [],
+      "voided": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/visit/4943fed3-b2bf-4d73-ae37-aa1ec16620ff"
+        },
+        {
+          "rel": "full",
+          "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/visit/4943fed3-b2bf-4d73-ae37-aa1ec16620ff?v=full"
+        }
+      ],
+      "resourceVersion": "1.9"
+    }
+  ],
+  "links": [
+    {
+      "rel": "next",
+      "uri": "http://demo.openmrs.org/openmrs/ws/rest/v1/visit?includeInactive=true&fromStartDate=2016-10-08T04%3A09%3A23.000Z&v=default&limit=10&startIndex=10"
+    }
+  ]
+}

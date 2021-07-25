@@ -13,8 +13,6 @@ import {
     makeStyles,
     colors
 } from '@material-ui/core';
-import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
-import ArrowRightIcon from '@material-ui/icons/ArrowRight';
 import CircularProgress from '@material-ui/core/CircularProgress';
 import Select from '@material-ui/core/Select';
 import MenuItem from '@material-ui/core/MenuItem';
@@ -102,18 +100,6 @@ const DiagnosesLineChart = ({ className, ...rest }) => {
             {...rest}
         >
             <CardHeader
-                // action={(
-                //     <Select
-                //         endIcon={<ArrowDropDownIcon />}
-                //         value={selector}
-                //         onChange={handleChange}
-                //     >
-                //         <MenuItem value={0}>Chest Pain</MenuItem>
-                //         <MenuItem value={1}>Pneumonia</MenuItem>
-                //         <MenuItem value={2}>Sepsis</MenuItem>
-                //         <MenuItem value={3}>Trauma</MenuItem>
-                //     </Select>
-                // )}
                 title="Age Distribution"
             />
             <Divider />

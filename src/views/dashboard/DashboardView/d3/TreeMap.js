@@ -132,9 +132,9 @@ class TreeMap extends React.Component {
 
             svg.selectAll('rect')
             .on("mouseover", function (d) {
-                { console.log(d.path[0].__data__.parent.data.name + ": " + d.path[0].__data__.data.value)}
-                tooltip.text(d.path[0].__data__.parent.data.name + ": " + d.path[0].__data__.data.value);
-                tooltip.style("visibility", "visible");
+                // { console.log(d.path[0].__data__.parent.data.name + ": " + d.path[0].__data__.data.value)}
+                // tooltip.text(d.path[0].__data__.parent.data.name + ": " + d.path[0].__data__.data.value);
+                // tooltip.style("visibility", "visible");
             })
             .on("mousemove", function (event, d) {
                 return tooltip.style("top", (event.pageY - 10) + "px").style("left", (event.pageX + 10) + "px");
