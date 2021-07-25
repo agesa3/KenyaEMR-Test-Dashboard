@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Box, Container, Typography, makeStyles } from '@material-ui/core';
 import Page from 'src/components/Page';
+import kenya from '../../images/kenya.png'
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -36,9 +37,8 @@ const HomeView = () => {
             variant="h1"
             style={{ whiteSpace: 'pre-line' }}
           >
-            {'\n'}
-            {'\n'}
-            KenyaEmr
+            
+            <img src={kenya} alt="kenya" />
           </Typography>
           <Typography
             align="left"

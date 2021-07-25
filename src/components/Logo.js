@@ -1,10 +1,12 @@
 import React from 'react';
+import logo from '../images/kenyaemr.png'
 
-const Logo = (props) => {
+const 
+ = (props) => {
   return (
     <img
       alt="Logo"
-      src="/static/logo.svg"
+      src={logo}
       {...props}
     />
   );
