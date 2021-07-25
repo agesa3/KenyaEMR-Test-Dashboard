@@ -9,6 +9,7 @@ import Laboratory from './views/Laboratory/Laboratory';
 import Maternity from './views/Maternity/Maternity';
 import MchStore from './views/MCHStore/MchStore';
 import Mchclinic from './views/MCHClinic/Mchclinic';
+import Login from './views/Authentication/Login';
 
 const routes = [
   {
@@ -23,8 +24,13 @@ const routes = [
       { path: 'laboratory', element: <Laboratory /> },
       { path: 'maternity', element: <Maternity /> },
       { path: 'mchclinic', element: <Mchclinic /> },
-      { path: 'mchstores', element: <MchStore /> }
+      { path: 'mchstores', element: <MchStore /> },
+      
     ]
+  },
+  {
+    path: '/login',
+    element: <Login />
   }
 ];
 
