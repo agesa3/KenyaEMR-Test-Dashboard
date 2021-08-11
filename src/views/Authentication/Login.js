@@ -15,6 +15,9 @@ import Link from '@material-ui/core/Link';
 import Grid from '@material-ui/core/Grid';
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Container from '@material-ui/core/Container';
+import { useHistory } from 'react-router-dom';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -46,16 +49,25 @@ const useStyles = makeStyles(theme => ({
 }));
 
 export default function Login() {
-  conts[(input, setInput)] = useState({
-    email: '',
+  let history = useHistory();
+  const [input, setInput] = useState({
+    username: '',
     password: ''
   });
 
-  let { email, password } = inputs;
+  let { username, password } = input;
 
   const handleSubmit = e => {
     e.preventDefault();
-    const { email, password } = this.state;
+    if (username !== '' && password !== '') {
+      setInput({ ...input });
+      if (username === 'admin' && password === 'admin') {
+        toast.success('Welcome Admin');
+        history.push('/dashboard');
+      }
+    } else {
+      history.push('/login');
+    }
   };
 
   const classes = useStyles();
@@ -96,6 +108,7 @@ export default function Login() {
               name="username"
               autoComplete="username"
               autoFocus
+              onChange={e => setInput({ ...input, username: e.target.value })}
             />
             <TextField
               variant="outlined"
@@ -107,6 +120,7 @@ export default function Login() {
               type="password"
               id="password"
               autoComplete="current-password"
+              onChange={e => setInput({ ...input, password: e.target.value })}
             />
             <FormControlLabel
               control={<Checkbox value="remember" color="primary" />}
@@ -118,9 +132,7 @@ export default function Login() {
               variant="contained"
               color="primary"
               className={classes.submit}
-              onClick={event => {
-                handleSubmit;
-              }}
+              onClick={handleSubmit}
             >
               Sign In
             </Button>
@@ -128,11 +140,6 @@ export default function Login() {
               <Grid item xs>
                 <Link href="/requestNewPassword" variant="body2">
                   Forgot password?
-                </Link>
-              </Grid>
-              <Grid item>
-                <Link href="#" variant="body2">
-                  {"Don't have an account? Sign Up"}
                 </Link>
               </Grid>
             </Grid>
