@@ -14,10 +14,10 @@ import Visits from './views/Visists/Visits';
 
 const routes = [
   {
-    path: '/',
+    path: '/dashboard',
     element: <DashboardLayout />,
     children: [
-      { path: '/', element: <HomeView /> },
+      // { path: '/', element: <HomeView /> },
       { path: 'dashboard', element: <DashboardView /> },
       { path: 'pharmacy', element: <Pharmacy /> },
       { path: 'accounts', element: <Accounts /> },
@@ -31,7 +31,7 @@ const routes = [
     ]
   },
   {
-    path: '/login',
+    path: '/',
     element: <Login />
   }
 ];

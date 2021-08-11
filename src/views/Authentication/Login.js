@@ -15,9 +15,10 @@ import Link from '@material-ui/core/Link';
 import Grid from '@material-ui/core/Grid';
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Container from '@material-ui/core/Container';
-import { useHistory } from 'react-router-dom';
+
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { useNavigate } from 'react-router-dom';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -49,7 +50,8 @@ const useStyles = makeStyles(theme => ({
 }));
 
 export default function Login() {
-  let history = useHistory();
+  const navigate = useNavigate();
+
   const [input, setInput] = useState({
     username: '',
     password: ''
@@ -63,10 +65,9 @@ export default function Login() {
       setInput({ ...input });
       if (username === 'admin' && password === 'admin') {
         toast.success('Welcome Admin');
-        history.push('/dashboard');
+        navigate('/dashboard');
       }
     } else {
-      history.push('/login');
     }
   };
 
