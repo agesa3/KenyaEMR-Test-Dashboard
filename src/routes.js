@@ -14,11 +14,15 @@ import Visits from './views/Visists/Visits';
 
 const routes = [
   {
-    path: '/dashboard',
+    path: '/',
+    element: <Login />
+  },
+  {
+    path: '/',
     element: <DashboardLayout />,
     children: [
       // { path: '/', element: <HomeView /> },
-      { path: 'dashboardpage', element: <DashboardView /> },
+      { path: 'dashboard', element: <DashboardView /> },
       { path: 'pharmacy', element: <Pharmacy /> },
       { path: 'accounts', element: <Accounts /> },
       { path: 'inventory', element: <Inventory /> },
@@ -26,13 +30,8 @@ const routes = [
       { path: 'maternity', element: <Maternity /> },
       { path: 'mchclinic', element: <Mchclinic /> },
       { path: 'mchstores', element: <MchStore /> },
-      { path: 'visits', element: <Visits /> },
-      
+      { path: 'visits', element: <Visits /> }
     ]
-  },
-  {
-    path: '/',
-    element: <Login />
   }
 ];
 
