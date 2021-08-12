@@ -51,7 +51,7 @@ const useStyles = makeStyles(theme => ({
     marginLeft: 0
   }
 }));
-function Admin() {
+function VisitsDashboard() {
  
   const classes = useStyles();
   const theme = useTheme();
@@ -144,9 +144,9 @@ function Admin() {
     </div>
   );
 }
-Admin.propTypes = {
+VisitsDashboard.propTypes = {
   // Injected by the documentation to work in an iframe.
   // You won't need it on your project.
   container: PropTypes.object
 };
-export default Admin;
+export default VisitsDashboard;

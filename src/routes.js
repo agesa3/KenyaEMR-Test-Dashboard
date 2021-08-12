@@ -18,7 +18,7 @@ const routes = [
     element: <DashboardLayout />,
     children: [
       // { path: '/', element: <HomeView /> },
-      { path: 'dashboard', element: <DashboardView /> },
+      { path: 'dashboardpage', element: <DashboardView /> },
       { path: 'pharmacy', element: <Pharmacy /> },
       { path: 'accounts', element: <Accounts /> },
       { path: 'inventory', element: <Inventory /> },

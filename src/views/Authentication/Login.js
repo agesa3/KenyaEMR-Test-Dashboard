@@ -65,7 +65,7 @@ export default function Login() {
       setInput({ ...input });
       if (username === 'admin' && password === 'admin') {
         toast.success('Welcome Admin');
-        navigate('/dashboard');
+        navigate('/dashboardpage');
       }
     } else {
     }
